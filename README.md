@@ -5,7 +5,9 @@ This is a Python project that automates geostatistical calculations and automate
 
 Main Goal: Reduces the amount of manual effort in ArcGIS Pro/QGIS 
 
-Calculates the area and percentage of Palestinian Land controlled in Area A, B, H1, Nature Reserve, Gaza Strip and developed in Area C, H2, Israel Proper and East Jerusalem. 
+Calculates the area and percentage of Palestinian land controlled in Area A, B, H1, Nature Reserve, Gaza Strip and developed in Area C, H2, Israel Proper and East Jerusalem. 
+
+Calculates the area and percentage of Israeli land developed in Area A, B, C, H1, H2, Nature Reserve, and East Jerusalem. 
 
 Creates and exports interactive and non-interactive Pie Charts that illustrates the amount of land that Palestinians have developed and controlled in each West Bank governorate.
 
@@ -19,6 +21,7 @@ Projection Used: EPSG:28191 Palestine 1923 / Palestine Grid
 
 Layers Used: 
 - Palestinian Land Mass
+- Israeli Land Mass
 - Palestinian Seam Zone Land
 - East Jerusalem Boundary
 - Oslo Agreement Jurisdiction Borders
@@ -61,6 +64,9 @@ Layer Definitions:
 •	Palestinian Seam Zone Land
 
       o	This layer illustrates Palestinian land that is developed in the Seam Zone. Depending on the context, the Seam Zone can have many definitions. These definitions are as follows, any land that is in between the Green Line (West Bank internationally recognized borders) and the West Bank barrier OR any land that is in the Jerusalem District but cut off from receiving Jerusalem municipal services in the West Bank due to the barrier OR any land that is trapped in between an Israeli district and the West Bank barrier.
+•	Israeli Land Mass
+
+      o	This layer illustrates the amount of land that Israelis have developed in Area A, B, C, H1, H2, Nature Reserve, and East Jerusalem.
    
 •	East Jerusalem Boundary
 
@@ -93,6 +99,8 @@ Steps Taken:
 6.  Create Pie charts illustrating the amount of land that Palestinians have developed and controlled in each of the the governorates in the West Bank 
   
 # Known Issues
+
+Sometimes Geometries might need fixing using shapely.
 
 Modifications to the data will force me to modify the code in order to reflect the changes
 
