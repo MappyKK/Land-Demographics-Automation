@@ -9,7 +9,7 @@ Calculates the area and percentage of Palestinian land controlled in Area A, B, 
 
 Calculates the area and percentage of Israeli land developed in Area A, B, C, H1, H2, Nature Reserve, and East Jerusalem. 
 
-Creates and exports interactive and non-interactive Pie Charts that illustrates the amount of land that Palestinians have developed and controlled in each West Bank governorate.
+Creates and exports interactive and non-interactive Pie Charts that illustrates the amount of land that Palestinians and Israelis have developed and controlled in each West Bank governorate.
 
 # How It's Made
 
