@@ -1,4 +1,4 @@
-# Palestinian Land Demographics GIS Automation
+# Land Demographics GIS Automation
 This is a Python project that automates geostatistical calculations and automates the creation of pie charts.
 
 # Description & Importance
